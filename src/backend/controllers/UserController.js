@@ -225,7 +225,6 @@ export const followUserHandler = function (schema, request) {
         }
       );
     }
-
     if (user._id === followUser._id) {
       return new Response(
         404,
